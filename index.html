@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en" class="no-js">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<title>Wahyup</title>
+		<style media="screen">
+			html {
+				scroll-behavior: smooth;
+			}
+			body {
+				background-color: #F8F9FA;
+			}
+			.no-js #loader { display: none;  }
+			.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+			.se-pre-con {
+				position: fixed;
+				left: 0px;
+				top: 0px;
+				width: 100%;
+				height: 100%;
+				z-index: 9999;
+				background: url(Preloader_3.gif) center no-repeat #fff;
+			}
+			@font-face {
+				font-family: Droid;
+				src:url(Social_Shapes.ttf);
+			}
+			@font-face {
+				font-family: nama;
+				src:url(beon-webfont.ttf);
+			}
+			.sosmed {
+				font-family: Droid;
+			}
+			.head {
+				font-family: nama;
+			}
+			.borderbox {
+				border: 3px solid transparent;
+				border-image: linear-gradient(to bottom, #f44242, #1cb5e0);
+				border-image-slice: 1;
+			}
+			.borderbox1 {
+				border: 3px solid transparent;
+				border-image: linear-gradient(to bottom, #F4A742, #1cb5e0);
+				border-image-slice: 1;
+			}
+			.box1 {
+				background-color: white;
+				padding: 3% 3% 3%;
+				border-radius: 10px;
+			}
+			.box2 {
+				background-color: #007485;
+				padding: 3% 3% 3%;
+				height: 100%;
+				width: 100%;
+			}
+			#border {
+				border:0;
+			}
+		</style>
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<!-- 		<script>$(function () {
+		$('[data-toggle="tooltip"]').tooltip()
+		})</script> -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+		<script>
+			//paste this code under head tag or in a seperate js file.
+			// Wait for window load
+			$(window).load(function() {
+				// Animate loader off screen
+				$(".se-pre-con").fadeOut(2000);;
+			});
+		</script>
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50" >
+		<div class="se-pre-con"></div>
+		
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg navbar-light sticky-top rounded " style="background-color: #00B3A0">
+				<img src="wah.png" alt="" width="15%" class="navbar-brand">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto nav nav-pills">
+						<li class="nav-item">
+							<a class="nav-link active" href="#about" style="color: white">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#skill" style="color: white">Skill</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#blog" style="color: white">My Blog</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#motivation" style="color: white">Motivation</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div id="about" style="margin-top: 1px;">
+				<div class="row">
+					<div class="col-sm">
+						<div class="box2 rounded" style="background-color: #00B3A0">
+							<h1 class="font-weight-bold display-5 text-warning head">Hello <span>I'am</span></h1>
+							<h1 class="display-3 text-white font-weight-bold head" >Wahyu</h1>
+							<h1 class="display-3 text-white font-weight-bold head" >Pambudi</h1>
+							<span class="text-white head" style="font-size: 15px;">Web Developer / Blogger Writer / Freelancer</span><br><br>
+							<p style="font-size: 18px; text-indent: 5%; letter-spacing: 3px;" align="justify">Assalamualaikum, Perkenalkan Saya Wahyu Pambudi, Lulus dari Sekolah Menengah Kejuruan Tahun pada 2018, dan saat ini sedang Mendalami Web Developer.</p>
+							<p style="font-size: 20px; letter-spacing: 3px; text-align: center" align="justify" class="text-white font-weight-bold ">~Berdoa Dan Pantang Menyerah~ <br>This Is My Motivation</p>
+						</div>
+					</div>
+					<div class="col-sm" >
+						<div class="box1">
+							<div class="row">
+								<div class="col-sm">
+									<br><br><br><br>
+									<img src="3.png" width="70%" alt="wahyup" class="rounded"  style="margin-left: 10%;"><br><br>
+									<p class="sosmed" style="text-decoration:">
+										<a href="https://web.facebook.com/wahyuepambudhie.pambudhie?_rdc=1&_rdr" data-toggle="tooltip" data-placement="bottom" title="Facebook" style=" margin-left: 15%;">F</a>
+										<a href="https://github.com/wahyupambudi" data-toggle="tooltip" data-placement="bottom" title="Github" style="; margin-left: 15px;">X</a>
+										<a href="https://www.instagram.com/wahyup9/?hl=en" data-toggle="tooltip" data-placement="bottom" title="Instagram" style="margin-left: 15px;">d</a>
+										<a href="https://www.linkedin.com/in/wahyu-pambudi-170457136/" data-toggle="tooltip" data-placement="bottom" title="Linkedin" style="margin-left: 15px;">j</a>
+									</p>
+								</div>
+								<div class="col-sm">
+									<h2>Wahyu Pambudi</h2>
+									<p style="color: #797474; margin-bottom: 4%">Keep Learn and Never Give Up!</p>									<a href="https://drive.google.com/file/d/1FPjheG3TUJ3w_tKapTKN8w35A-8cv4o6/view" title="Download CV" target="_blank"><button type="button" class="btn btn-primary" style="margin-top: 4%">Download CV</button></a>
+									<!-- Button trigger modal -->
+									<button title="Contact Me" style="margin-left: 20px; margin-top: 4%" type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal">
+									Contact
+									</button>
+									<!-- Modal -->
+									<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="exampleModalLabel">Attention!</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													<span aria-hidden="true">&times;</span>
+													</button>
+												</div>
+												<div class="modal-body">
+													<a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=6289682787161&text=Assalamualaikum Wr Wb" target="_blank">Whatsapp</a>
+													<a class="btn btn-primary" href = "mailto: wahyupambudi823@gmail.com" target="_blank">Email</a>
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br><br>
+									<table class="table">
+										<tbody>
+											<tr>
+												<td id="border">Age</td>
+												<td id="border" style="color: #797474">18</td>
+											</tr>
+											<tr>
+												<td id="border">Address</td>
+												<td id="border" style="color: #797474">Jati Agung, Lampung Selatan </td>
+											</tr>
+											<tr>
+												<td id="border">Github</td>
+												<td id="border" style="color: #797474"> https://github.com/wahyupambudi </td>
+											</tr>
+											<tr>
+												<td id="border">Blog</td>
+												<td id="border" style="color: #797474"> https://www.awonapa.com </td>
+											</tr>
+											<tr>
+												<td id="border">Email</td>
+												<td id="border" style="color: #797474"> wahyupambudi823@gmail.com </td>
+											</tr>
+											<tr>
+												<td id="border">Phone</td>
+												<td id="border" style="color: #797474"> +6289682787161 </td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<br>
+					<section class="section-warp">
+						<!-- <div class="jumbotron jumbotron-fluid"> -->
+						<div class="rounded" style="background: linear-gradient(to right, #00B3A0, #F4A742">
+							<div class="container">
+								<div id="skill">
+									<div class="row">
+										<div class="col-sm">
+											<div>
+												<h3 style="padding: 30px;" class="head text-white"><b>Technical Skill</b></h3>
+												<div class="box1">
+													<p>Front End Developer</p>
+													<div class="progress">
+														<div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%"></div>
+													</div>
+													<br>
+													<p>Back End Developer</p>
+													<div class="progress">
+														<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+													</div>
+													<br>
+													<p>IT Network</p>
+													<div class="progress">
+														<div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm">
+											<div>
+												<h3 style="padding: 30px;" class="head text-white"><b>Soft Skill</b></h3>
+												<div class="box1">
+													<p>Analytic</p>
+													<div class="progress">
+														<div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+													</div>
+													<br>
+													<p>Never Give Up</p>
+													<div class="progress">
+														<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+													</div>
+													<br>
+													<p>Team Work</p>
+													<div class="progress">
+														<div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div><br><br>
+							</div>
+						</div>
+						<br>
+						<div class="rounded" style="margin-top: 2px; background: linear-gradient(to right, #F4A742, #00B3A0">
+							<div class="container">
+								<div id="blog">
+									<div class="row">
+										<div class="col-sm">
+											<div>
+												<h2 style="padding: 30px;" class="head text-white"><b>My Blog</b></h2>
+												<div class="box1">
+													<div class="card-group">
+														<div class="card borderbox mb-3" style="max-width: 18rem;">
+															<div class="card-header">HTML</div>
+															<div class="card-body text-primary">
+																<img src="HTML.webp" width="100%" alt="wahyup" class="rounded"><br><br>
+																<p>Mempelajari HTML 5 Lengkap</p>
+															</div>
+														</div>
+														<div class="card borderbox mb-3" style="max-width: 18rem;">
+															<div class="card-header">CSS</div>
+															<div class="card-body text-primary">
+																<img src="CSS.webp" width="100%" alt="wahyup" class="rounded"><br><br>
+																<p>Mempelajari CSS 3 Lengkap</p>
+															</div>
+														</div>
+														<div class="card borderbox mb-3" style="max-width: 18rem;">
+															<div class="card-header">BLOGING</div>
+															<div class="card-body text-primary">
+																<img src="blogger.webp" width="100%" alt="wahyup" class="rounded"><br><br>
+																<p>Sharing Tentang NgeBlog</p>
+															</div>
+														</div>
+														<div class="card borderbox mb-3" style="max-width: 18rem;">
+															<div class="card-header">COMPUTER ENGINER</div>
+															<div class="card-body text-primary">
+																<img src="IT.webp" width="100%" alt="wahyup" class="rounded"><br><br>
+																<p>Learn IT Network & Hardware</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div><br><br>
+						</div>
+						<br>
+						<div class="rounded" style="margin-top: 2px; background: linear-gradient(to right, #00B3A0, #F4A742">
+							<div class="container">
+								<div id="motivation">
+									<div class="row">
+										<div class="col-sm">
+											<div>
+												<h2 style="padding: 30px;" class="head text-white"><b>Motivation</b></h2>
+												<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+													<ol class="carousel-indicators">
+														<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+														<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+														<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+													</ol>
+													<div class="carousel-inner">
+														<div class="carousel-item active">
+															<div class="card-group">
+																<div class="card borderbox1 mb-3" style="max-width: 100%;">
+																	<div class="card-header">ILMU</div>
+																	<div class="card-body text-primary">
+																		<h5 class="card-title">Ilmu Dunia Akhirat</h5>
+																		<p class="card-text">Rasulullah Shallallahu 'alaihi wasallam bersabda, Barang siapa yang ingin hidup di dunia maka harus dengan Ilmu, Barang siapa yang ingin hidup di akhirat maka harus dengan Ilmu. Dan Barang siapa ingin hidup dikeduanya Maka Harus Dengan Ilmu.</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="carousel-item">
+															<div class="card-group">
+																<div class="card borderbox1 mb-3" style="max-width: 100%;">
+																	<div class="card-header">Pantang Menyerah dan Sabar</div>
+																	<div class="card-body text-primary">
+																		<h5 class="card-title">Menyerahlah, Maka Kamu Akan Rugi</h5>
+																		<p class="card-text">Sesungguhnya hanya orang-orang yang bersabarlah yang dicukupkan pahala mereka tanpa batas [QS.Az-Zumar:10] ----- Jadikanlah Sabar dan Salat sebagai Penolongmu, Sesungguhnya Allah beserta orang-orang yang sabar [QS.Al-Baqarah:153]. </p>
+																	</div>
+																</div>
+															</div>														</div>
+															<div class="carousel-item">
+																<div class="card-group">
+																	<div class="card borderbox1 mb-3" style="max-width: 100%;">
+																		<div class="card-header">Time</div>
+																		<div class="card-body text-primary">
+																			<h5 class="card-title">Priorities</h5>
+																			<p class="card-text">I learned that we can do anything, but we can’t do everything… at least not at the same time. So think of your priorities not in terms of what activities you do, but when you do them. Timing is everything.</p>
+																		</div>
+																	</div>
+																</div>															</div>
+															</div>
+															<a href="#carouselExampleIndicators" role="button" data-slide="prev">
+																<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+																<span class="sr-only">Previous</span>
+															</a>
+															<a href="#carouselExampleIndicators" role="button" data-slide="next" style="float: right;">
+																<span class="carousel-control-next-icon" aria-hidden="true"></span>
+																<span class="sr-only">Next</span>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div><br><br>
+									</div>
+								</div>
+								<br>
+								<div class="rounded" style="margin-top: 2px; background: linear-gradient(to right, #F4A742, #00B3A0);">
+									<div class="container">
+										<div id="contact">
+											<div class="row">
+												<div class="col-sm">
+													<br>
+													<p class="text-white" align="center">&copy Copyright 2019 Wahyu Pambudi</p>
+												</div>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+</body>
+</html>
